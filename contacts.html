@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="contacts.css">
+</head>
+<body>
+    <header>
+        <div class="logo">FreshBite</div>
+        <nav>
+            <a href="index.html">О нас</a>
+            <a href="menu.html">Меню</a>
+            <a href="delivery.html">Доставка</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+    </header>
+    <div id="outputMessage"></div> 
+    <section id="contacts" class="contact-section">
+        <h2>Контакты</h2>
+        <form id="contactForm" class="contact-form">
+            <input type="text" id="name" placeholder="Ваше имя" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="tel" id="phone" placeholder="Телефон (например, +7 или 8)" required>
+            <textarea id="message" placeholder="Ваш заказ (Укажите названия блюд, их количество и адрес доставки)" rows="5" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+        <div class="contact-info">
+            <p><strong>Контактная информация:</strong></p>
+            <p>Телефон: +7-922-000-00-00</p>
+            <p>Электронная почта: FreshBite@urfu.ru</p>
+            <p><strong>Наш магазин:</strong></p>
+            <p>г. Екатеринбург, ул. 8 Марта 1</p>
+            <p>Доставляем заказы от 30 минут в пределах ЕКАДа.</p>
+        </div>
+    </section>
+    <section id="feedback" class="feedback-section">
+        <h2>Оставьте о нас отзыв</h2>
+        <form id="feedbackForm" class="feedback-form">
+            <input type="text" id="feedbackName" placeholder="Ваше имя" required>
+            <input type="email" id="feedbackEmail" placeholder="Ваш email" required>
+            <textarea id="feedbackMessage" placeholder="Ваш отзыв" rows="5" required></textarea>
+            <button type="submit">Оставить отзыв</button>
+        </form>
+        <div id="thankYouMessage" style="display: none; margin-top: 20px; color: green; font-weight: bold;">
+            Большое спасибо за отзыв!
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 Интернет-магазин готовой еды</p>
+    </footer>
+    <script src="contacts.js"></script>
+</body>
+</html>

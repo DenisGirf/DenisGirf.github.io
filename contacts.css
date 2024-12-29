@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff; 
+    color: #000000;
+    overflow-x: hidden; 
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: url("images/Frame_2.png") no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    width: 100%; 
+    height: 40px; 
+}
+header nav a {
+    margin: 0 10px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.contact-section {
+    margin-top: -20px;
+    padding: 20px;
+}
+.contact-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+.contact-form {
+    margin-bottom: 20px;
+}
+.contact-form input, .contact-form textarea {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #97e88c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #85d67a;
+}
+.contact-info {
+    margin-top: 20px;
+    margin-bottom: -100px;
+}
+footer {
+    background: #9EE37D;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: center;
+    bottom: 0;
+    width: 100%;
+}
+#outputMessage {
+    
+    padding-left: 20px; 
+    background-color: #d4f4d4;
+    color: #2f662f;
+    border: 1px solid #87c968;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: none;
+}
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.feedback-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.feedback-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+.feedback-form {
+    margin-bottom: 20px;
+}
+.feedback-form input, .feedback-form textarea {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.feedback-form button {
+    padding: 10px 20px;
+    background-color: #97e88c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.feedback-form button:hover {
+    background-color: #85d67a;
+}
+#thankYouMessage {
+    color: #2f662f;
+    background-color: #d4f4d4;
+    padding: 10px;
+    border: 1px solid #87c968;
+    border-radius: 5px;
+    text-align: left;
+    margin-top: 20px;
+    display: none;
+}
